@@ -1,0 +1,85 @@
+{
+  "_help": "Edit the text values in this file; keep the quotes and commas. To change the photo, place an image beside index.html and enter its filename in the photo field.",
+  "meta": {
+    "title": "Anna Petrova — Math Tutor | Exam Preparation",
+    "description": "Personalized online math tutoring for middle and high school students. Fictional demo profile and sample results."
+  },
+  "contacts": {
+    "name": "Anna Petrova",
+    "phoneDisplay": "+1 (555) 010-2026",
+    "phoneTel": "+15550102026",
+    "whatsapp": "15550102026",
+    "telegram": "https://t.me/username",
+    "telegramText": "Telegram",
+    "vk": "https://example.com/",
+    "vkText": "Contact"
+  },
+  "nav": ["About", "Results", "Pricing", "FAQ"],
+  "hero": {
+    "badge": "Demo project · fictional tutor and results",
+    "title": "Math without the stress: build exam confidence, one lesson at a time",
+    "lead": "One-to-one lessons for middle and high school students, online or in person. We focus on your specific gaps—not repeating the whole curriculum.",
+    "ctaMain": "Book a trial lesson",
+    "ctaSecond": "View pricing",
+    "ctaHeader": "Book a lesson"
+  },
+  "stats": [
+    { "num": "78", "lbl": "average score in the 2025 exam" },
+    { "num": "9 years", "lbl": "helping students prepare" },
+    { "num": "120+", "lbl": "students supported" }
+  ],
+  "about": {
+    "title": "About me",
+    "sub": "A little about who you'll learn with and how I work.",
+    "photo": "portrait.svg",
+    "photoAlt": "Illustrated profile portrait",
+    "paragraphs": [
+      "I'm Anna. I have a degree in mathematics and have spent nine years helping students build confidence and prepare for exams.",
+      "We start by identifying knowledge gaps, then create a personal plan with short weekly check-ins. Parents receive a concise progress update each month—no surprises when exam day arrives.",
+      "Lessons are available online or in person. Your first 30-minute introductory session is free."
+    ]
+  },
+  "results": {
+    "title": "Student results",
+    "sub": "Sample outcomes from the previous year—not promises.",
+    "items": [
+      { "b": "Exam preparation:", "t": "14 of 18 students scored 75 or higher. The top score was 96, up from 54 at the start." },
+      { "b": "Middle school:", "t": "All 11 students passed, including three who made significant progress over six months." },
+      { "b": "Competitions:", "t": "Two students placed in a regional mathematics olympiad. These sample results do not guarantee admission benefits." }
+    ]
+  },
+  "plans": {
+    "title": "Pricing",
+    "sub": "Three ways to learn. Monthly plans offer flexibility if you need to miss a lesson.",
+    "items": [
+      { "name": "Single lesson", "price": "$25", "per": "per 60-minute lesson", "hot": false, "badge": "", "features": ["Choose any topic", "Homework review", "Online or in person"] },
+      { "name": "Monthly plan", "price": "$175", "per": "8 lessons · 60 minutes each", "hot": true, "badge": "Most popular", "features": ["Personal study plan", "Weekly progress check-ins", "Monthly parent update", "Message support between lessons"] },
+      { "name": "Exam prep", "price": "$1,500", "per": "September–May · full program", "hot": false, "badge": "", "features": ["Everything in the monthly plan", "Three practice exams with review", "Exam-day confidence coaching", "If you don't reach your target, June lessons are free"] }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "sub": "Select a question to see the answer.",
+    "items": [
+      { "q": "Are online lessons as effective as in-person ones?", "a": "Yes. I use a digital writing tablet, so students can follow every step just as they would on a whiteboard. With permission, lesson recordings are available to revisit. Most of my students learn online." },
+      { "q": "What if we're not a good fit?", "a": "The first 30-minute introductory session is free and comes with no obligation. If it doesn't feel right, I'll say so and can recommend another tutor." },
+      { "q": "How does payment work?", "a": "Plans are billed monthly. If you need to miss a lesson, let me know at least a day ahead and we'll reschedule it." }
+    ]
+  },
+  "form": {
+    "title": "Book an introduction",
+    "sub": "Demo form: when run with the server, enquiries are saved for review. Please use fictional contact details.",
+    "nameLabel": "Name",
+    "namePh": "How should I address you?",
+    "phoneLabel": "Phone number",
+    "phonePh": "+1 (555) 000-0000",
+    "phoneHint": "Used only to follow up about your lesson enquiry.",
+    "msgLabel": "Comment",
+    "msgOpt": "(optional)",
+    "msgPh": "Grade, goals, topics, or a convenient time",
+    "submit": "Send enquiry",
+    "emptyWarn": "Please enter your name and phone number so I can get back to you.",
+    "okText": "Waiting for server confirmation."
+  },
+  "footer": { "left": "Anna Petrova · " }
+}

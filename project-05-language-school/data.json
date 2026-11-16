@@ -1,0 +1,19 @@
+{
+  "name": "Speaking",
+  "eyebrow": "Online English school · concept project",
+  "title": "English for your life. Your way.",
+  "description": "Share ideas, travel and feel like yourself in another language. Start with a conversation—we'll help you find the words.",
+  "plans": [
+    {"name":"Small group","price":18,"unit":"per lesson","description":"Learn with people at your level. Up to six learners, plenty of speaking practice and teacher support."},
+    {"name":"One-to-one","price":32,"unit":"per lesson","description":"Your pace, your interests. A personal learning plan and your teacher's full attention."},
+    {"name":"Learn together","price":22,"unit":"per person, per lesson","description":"Bring a friend or colleague. Share a goal and give each other a reason to keep going."}
+  ],
+  "steps": [
+    {"title":"Get to know each other","text":"We'll talk about your goals and get a sense of your level in a free intro."},
+    {"title":"Find your rhythm","text":"Choose a teacher, a time that works and the lesson format that suits you."},
+    {"title":"Start speaking","text":"Practice real-life situations and build confidence in every lesson."}
+  ],
+  "formTitle":"Your first conversation is on us.",
+  "formText":"Request a free introduction. We'll talk about your goals and find a format that feels right.",
+  "email":"hello@speaking.example"
+}

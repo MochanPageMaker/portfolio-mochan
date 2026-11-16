@@ -1,0 +1,17 @@
+{
+  "workspace": "Acme Workspace",
+  "currency": "USD",
+  "goal": 50000,
+  "revenue": [{"month":"May","amount":19800},{"month":"Jun","amount":22400},{"month":"Jul","amount":21800},{"month":"Aug","amount":27600},{"month":"Sep","amount":31200},{"month":"Oct","amount":36800}],
+  "funnel": [{"name":"Visitors","value":12480},{"name":"Sign-ups","value":3120},{"name":"Activated","value":1480},{"name":"Paid customers","value":624}],
+  "customers": [
+    {"name":"Northstar Studio","plan":"Business","status":"active","mrr":4200,"date":"2026-10-28"},
+    {"name":"Forma Digital","plan":"Pro","status":"active","mrr":18000,"date":"2026-10-25"},
+    {"name":"Growth Point","plan":"Business","status":"active","mrr":4200,"date":"2026-10-22"},
+    {"name":"Monday Team","plan":"Starter","status":"trial","mrr":0,"date":"2026-10-20"},
+    {"name":"Practice Bureau","plan":"Pro","status":"active","mrr":1800,"date":"2026-10-18"},
+    {"name":"Cedar Works","plan":"Starter","status":"cancelled","mrr":0,"date":"2026-10-16"},
+    {"name":"Orbit Systems","plan":"Business","status":"active","mrr":4200,"date":"2026-10-12"},
+    {"name":"Line Studio","plan":"Pro","status":"trial","mrr":0,"date":"2026-10-10"}
+  ]
+}

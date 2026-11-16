@@ -1,0 +1,24 @@
+{
+  "_help": "Customize the text values, products, prices and delivery options in this file. Keep the quotes and commas. A null apiEndpoint keeps checkout in demo mode.",
+  "meta": {"title":"Checkout — PowerFood","description":"A sample shopping cart and checkout flow with delivery, payment and order confirmation."},
+  "shop": {"name":"PowerFood","logoText":"PowerFood","supportPhone":"+1 (555) 010-2026","supportTel":"+15550102026","freeFrom":75},
+  "steps": ["Cart","Delivery & payment","Done"],
+  "cart": {
+    "title":"Your cart","sub":"Review your items—delivery details are just a step away.","empty":"Your cart is empty. Head back to the store and find something you like.",
+    "items":[
+      {"id":"whey","name":"Whey protein, chocolate","spec":"2 lb · 27 g protein per serving","price":32,"qty":1,"old":38},
+      {"id":"creatine","name":"Creatine monohydrate","spec":"10.5 oz · 60 servings","price":18,"qty":2,"old":null},
+      {"id":"bars","name":"Protein bars, variety box","spec":"12 bars · chocolate peanut","price":15,"qty":1,"old":null}
+    ],
+    "promoLabel":"Promo code","promoPh":"Have a code? Enter it here","promoOk":"Promo code applied: 10% off","promoBad":"That code wasn't recognized. Check the spelling.","promoCode":"SPORT10","promoPct":10
+  },
+  "delivery": {
+    "title":"Delivery & payment","sub":"Step 2 of 3. Fields marked with an asterisk are required.","contactTitle":"Contact details","nameLabel":"Name","namePh":"Your name","phoneLabel":"Phone","phonePh":"+1 (555) 000-0000","mailLabel":"Email for your receipt","mailPh":"you@example.com","addrTitle":"Address","cityLabel":"City","cityPh":"Your city","addrLabel":"Street address","addrPh":"123 Main Street, Apt 5","commentLabel":"Delivery instructions","commentOpt":"(optional)","commentPh":"Door code, preferred delivery time…",
+    "pickupPoints":[{"id":"demo-center","name":"Demo pickup point — 10 Market Street"},{"id":"demo-south","name":"Demo pickup point — 5 Park Avenue"}],
+    "methods":[{"id":"courier","name":"Courier delivery","desc":"1–2 business days · pay on delivery available","price":7},{"id":"pickup","name":"Pickup point","desc":"2–4 business days · convenient locations","price":4},{"id":"post","name":"Standard shipping","desc":"3–7 business days","price":9}],
+    "freeNote":"Free shipping on orders over $75 — add {left} to qualify","payTitle":"Payment","pays":[{"id":"card","name":"Pay by card","desc":"Demo only · no charge will be made"},{"id":"cod","name":"Pay on delivery","desc":"Pay when your order arrives"}],"errFix":"Check the highlighted fields for details.","back":"Back to cart","submit":"Place demo order"
+  },
+  "summary":{"title":"Order summary","goods":"Items","discount":"Promo discount","delivery":"Delivery","free":"Free","total":"Total","countSuffix":"items"},
+  "success":{"title":"Demo complete!","text":"Your sample order number is {num}. No order was sent to a real store and no payment was processed.","again":"Back to projects","numPrefix":"PF-DEMO-"},
+  "apiEndpoint":null,"backUrl":"../index.html#projects","backLabel":"← Back to projects"
+}
